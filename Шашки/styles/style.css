@@ -1,0 +1,179 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+
+
+}
+.wrapper{
+	max-width: 406px;
+	margin: auto;
+	background-color: #888;
+	height: 406px;
+	border: 3px solid #000;
+	padding-right: 20px;
+	padding: 0;
+	padding-bottom: 0;
+	position: relative;
+}
+.line{
+	position: absolute;
+	height: 50px;
+	width: 100%;
+	left: 0;
+}
+.box{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+
+}
+.line1{
+	top: 0;
+}
+.line2{
+	top: 50px;
+}
+
+.line3{
+	top: 100px;
+}
+.line4{
+	top: 150px;
+}
+.line5{
+	top: 200px;
+}
+.line6{
+	top: 250px;
+}
+.line7{
+	top: 300px;
+}
+.line8{
+	top: 350px;
+}
+.box1{
+	left: 0;
+}
+.box2{
+	left: 50px;
+}
+.box3{
+	left: 100px;
+}
+.box4{
+	left: 150px;
+}
+.box5{
+	left: 200px;
+}
+.box6{
+	left: 250px;
+}
+.box7{
+	left: 300px;
+}
+.box8{
+	left: 350px;
+}
+.line1 .box:nth-child(even){
+	background-color: #FFF;
+}
+.line1 .box:nth-child(odd){
+	background-color: #000;
+}
+.line2 .box:nth-child(odd){
+	background-color: #FFF;
+}
+.line2 .box:nth-child(even){
+	background-color: #000;
+}
+.line3 .box:nth-child(even){
+	background-color: #FFF;
+}
+.line3 .box:nth-child(odd){
+	background-color: #000;
+}
+.line4 .box:nth-child(odd){
+	background-color: #FFF;
+}
+.line4 .box:nth-child(even){
+	background-color: #000;
+}
+.line5 .box:nth-child(even){
+	background-color: #FFF;
+}
+.line5 .box:nth-child(odd){
+	background-color: #000;
+}
+.line6 .box:nth-child(odd){
+	background-color: #FFF;
+}
+.line6 .box:nth-child(even){
+	background-color: #000;
+}
+.line7 .box:nth-child(even){
+	background-color: #FFF;
+}
+.line7 .box:nth-child(odd){
+	background-color: #000;
+}
+.line8 .box:nth-child(odd){
+	background-color: #FFF;
+}
+.line8 .box:nth-child(even){
+	background-color: #000;
+}
+
+.chacker-white{
+	background-color: #FFF;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	position: absolute;
+}
+.line6 .box:nth-child(even):before{
+	content:"";
+	background-color: #DC143C;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	}
+.line7 .box:nth-child(odd):before{
+	content:"";
+	background-color: #DC143C;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.line8 .box:nth-child(even):before{
+	content:"";
+	background-color: #DC143C;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
